@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/android_1"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:fontFamily="@font/poppins"
+    tools:context=".MainActivity2"
+    >
+
+    <LinearLayout
+        android:id="@+id/rectangle_3"
+        android:layout_width="300dp"
+        android:layout_height="410dp"
+        android:layout_marginTop="163dp"
+        android:background="@drawable/box_shadow"
+        android:elevation="5dp"
+        android:gravity="top"
+        android:orientation="vertical"
+        tools:context=".MainActivity2"
+        >
+        <TextView
+            android:id="@+id/tv_enrollnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:text="Enrollment Number"
+            android:fontFamily="@font/poppins"
+            android:textColor="#5F5F5F"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_enrollnum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Enter Your Enrollment Number"
+            android:fontFamily="@font/poppins"
+            android:textColor="#8F8F8F"
+            android:textColorHint="#8F8F8F"
+            android:padding="10dp"
+            android:textSize="14sp"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:text="Address"
+            android:fontFamily="@font/poppins"
+            android:textColor="#5F5F5F"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Enter Your Address"
+            android:fontFamily="@font/poppins"
+            android:textColor="#8F8F8F"
+            android:textColorHint="#8F8F8F"
+            android:padding="10dp"
+            android:textSize="14sp"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:id="@+id/tv_birth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:text="Date Of Birth"
+            android:fontFamily="@font/poppins"
+            android:textColor="#5F5F5F"
+            android:textSize="14sp"
+            />
+
+        <EditText
+            android:id="@+id/et_birth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="ddmmyyyy"
+            android:textColor="#8F8F8F"
+            android:textColorHint="#8F8F8F"
+            android:fontFamily="@font/poppins"
+            android:padding="10dp"
+            android:textSize="14sp"
+            android:inputType="datetime"
+            />
+        <CheckBox
+            android:id="@+id/cb_honest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="I Fill Out This Form Honestly"
+            android:fontFamily="@font/poppins"
+            android:textColor="#C15F5F5F"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="143dp"
+        android:layout_height="45dp"
+        android:background="@drawable/rectangle_2"
+        android:text="SUBMIT"
+        android:layout_marginTop="30dp"
+        />
+
+</LinearLayout>

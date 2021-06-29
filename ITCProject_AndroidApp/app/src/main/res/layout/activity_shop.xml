@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/home_background"
+    tools:context=".ShopActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ITEM AVAILABLE"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:fontFamily="@font/permanent_marker"
+        android:padding="30dp"
+        android:textSize="35dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:background="@drawable/rectangle_shop"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="25dp"
+            >
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/shirt"
+                android:layout_margin="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Casual Shirt\nRp 30.000"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/poppins"
+                />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:fontFamily="@font/poppins"
+                android:text="Order : "
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_sumShirt"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:textColorHint="#8F8F8F"
+                android:textColor="@color/black"
+                android:hint="Number"
+                android:digits="0123456789"
+                android:inputType="number"
+                android:textSize="12sp"
+                android:fontFamily="@font/poppins"
+                />
+            <TextView
+                android:id="@+id/tv_sumShirt"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/red" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-297dp"
+                android:layout_marginLeft="200dp">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/pants"
+                    android:layout_margin="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Casual Pants\nRp 60.000"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginTop="158dp"
+                    />
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Order : "
+                    android:textColor="@color/black"
+                    android:layout_marginTop="204dp"
+                    />
+
+                <EditText
+                    android:id="@+id/et_sumPants"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColorHint="#8F8F8F"
+                    android:textColor="@color/black"
+                    android:hint="Number"
+                    android:digits="0123456789"
+                    android:inputType="number"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginTop="230dp"
+                    />
+                <TextView
+                    android:id="@+id/tv_sumPants"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/red"
+                    android:layout_marginTop="246dp"
+                    />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/bag"
+                android:layout_margin="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bag\nRp 150.000"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/poppins"
+                />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:fontFamily="@font/poppins"
+                android:text="Order : "
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et_sumBag"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:textColorHint="#8F8F8F"
+                android:textColor="@color/black"
+                android:hint="Number"
+                android:digits="0123456789"
+                android:inputType="number"
+                android:textSize="12sp"
+                android:fontFamily="@font/poppins"
+                />
+
+            <TextView
+                android:id="@+id/tv_sumBag"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:textSize="12sp"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/red" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-295dp"
+                android:layout_marginLeft="200dp">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/smartphone"
+                    android:layout_margin="20dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Smart Phone\nRp 2.000.000"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginTop="158dp"
+                    />
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Order : "
+                    android:textColor="@color/black"
+                    android:layout_marginTop="202dp"
+                    />
+
+                <EditText
+                    android:id="@+id/et_sumSmartphone"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColorHint="#8F8F8F"
+                    android:textColor="@color/black"
+                    android:hint="Number"
+                    android:inputType="number"
+                    android:digits="0123456789"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginTop="227dp"
+                    />
+                <TextView
+                    android:id="@+id/tv_sumSmartphone"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/red"
+                    android:layout_marginTop="247dp"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_chart"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To Chart"
+        android:backgroundTint="@color/green_light"
+        />
+
+</LinearLayout>

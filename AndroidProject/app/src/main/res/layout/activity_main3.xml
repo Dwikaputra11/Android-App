@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity3"
+    android:background="@drawable/graduate"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:src="@drawable/congrat" />
+
+    <LinearLayout
+        android:id="@+id/rectangle_3"
+        android:layout_width="300dp"
+        android:layout_height="410dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle_3"
+        android:elevation="5dp"
+        android:gravity="top"
+        android:orientation="vertical"
+        tools:context=".MainActivity3"
+        >
+        <TextView
+            android:id="@+id/tv_getName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="#5F5F5F"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/tv_getEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="#5F5F5F"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_getEnrollNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="#5F5F5F"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="#5F5F5F"
+            android:textSize="14sp"
+            android:text="Status\nStudent of UPNVYK"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="For Further Information, Please Click Below"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/poppins"
+            android:textColor="#A0A0A0"
+            android:textSize="10sp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_2"
+        android:layout_marginTop="27dp"
+        android:text="Contact Us"
+        />
+
+
+</LinearLayout>

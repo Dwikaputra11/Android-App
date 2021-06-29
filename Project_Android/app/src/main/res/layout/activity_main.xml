@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pendaftaran WorkShop ITC"
+        android:textColor="#939093"
+        android:textSize="25sp"
+        android:textStyle="italic|bold" />
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:src="@drawable/jalan"
+        />
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:fontFamily="@font/poppins"
+        android:text="Nama:"
+        android:textColor="#FF939093"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_light"
+        android:hint="Masukkan nama Anda"
+        android:inputType="text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_telp"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Nomor Telepon:"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF939093"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/et_telp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nomor Telepon Anda"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:inputType="phone"
+        />
+
+    <TextView
+        android:id="@+id/tv_jkelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF939093"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins_light"
+        />
+    <RadioGroup
+        android:id="@+id/rg_jkelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_laki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laki-laki"
+            />
+        <RadioButton
+            android:id="@+id/rb_perempuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perempuan"
+            android:layout_marginLeft="10dp"
+            />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/cb_bersedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saya Bersedia ikut Workshop ITC"
+        android:layout_marginTop="10dp"
+        android:background="#CACFBF"
+        />
+
+    <Button
+        android:id="@+id/btn_daftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CACFBF"
+        android:text="DAFTAR"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+</LinearLayout>
+
+    <!--agar sesuai dengan parentnya pakek match_parent -->

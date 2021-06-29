@@ -1,0 +1,177 @@
+<!-- Android - 1 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/android_1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/android_1"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/maba"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="480dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box_shadow"
+        android:elevation="5dp"
+        android:gravity="top"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        >
+
+        <TextView
+            android:id="@+id/tv_signUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="11dp"
+            android:padding="10dp"
+            android:text="Sign Up"
+            android:fontFamily="@font/poppins"
+            android:textColor="#5F5F5F"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:text="Email"
+            android:fontFamily="@font/poppins"
+            android:textColor="#5F5F5F"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Enter Your Email Here"
+            android:padding="10dp"
+            android:inputType="text"
+            android:textColorHint="#8F8F8F"
+            android:textColor="#8F8F8F"
+            android:fontFamily="@font/poppins"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:text="Name"
+            android:fontFamily="@font/poppins"
+            android:textColor="#5F5F5F"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Enter Your Name"
+            android:padding="10dp"
+            android:inputType="text"
+            android:textColorHint="#8F8F8F"
+            android:textColor="#8F8F8F"
+            android:fontFamily="@font/poppins"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:text="Password"
+            android:fontFamily="@font/poppins"
+            android:textColor="#5F5F5F"
+            android:textSize="14sp"
+            />
+
+        <EditText
+            android:id="@+id/et_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Enter Your Password"
+            android:padding="10dp"
+            android:inputType="textPassword"
+            android:textColorHint="#8F8F8F"
+            android:textColor="#8F8F8F"
+            android:fontFamily="@font/poppins"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:text="Gender"
+            android:fontFamily="@font/poppins"
+            android:textColor="#5F5F5F"
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:id="@+id/rg_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:padding="10dp"
+                android:text="Female"
+                android:fontFamily="@font/poppins"
+                android:textColor="#5F5F5F"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/rb_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:fontFamily="@font/poppins"
+                android:textColor="#5F5F5F"
+                android:padding="10dp"
+                android:text="Male"
+                android:textSize="14sp" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="143dp"
+            android:layout_height="45dp"
+            android:background="@drawable/rectangle_2"
+            android:backgroundTint="@color/purple_200"
+            android:text="NEXT"
+            android:layout_marginTop="30dp"
+            />
+
+</LinearLayout>
+
